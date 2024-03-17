@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+@layer components {
+
+  .btn-3d {
+    @apply bg-white text-slate-700 border-b-4 border-slate-400
+    rounded font-semibold cursor-pointer grid place-items-center
+    hover:translate-y-1 hover:border-b-0 hover:mb-1 text-2xl font-bold
+  }
+}
